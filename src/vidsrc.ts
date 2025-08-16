@@ -11,7 +11,7 @@ import * as cheerio from "npm:cheerio"; // FOR DENO
 import * as cheerio from "cheerio";
 import { decrypt } from "./helpers/decoder";
 
-let BASEDOM = "https://vidrock.net";
+let BASEDOM = "https://vidrock.net/api/";
 
 interface Servers {
   name: string | null;
